@@ -1,0 +1,405 @@
+/*** 
+
+====================================================================
+  File Name: responsive.css
+====================================================================
+
+***/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	#navbarCollapse ul li{
+		margin-left: 8px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#navbarCollapse ul li{
+		margin-left: 8px;
+	}
+	.navbar-expand-lg>.container{
+		padding-right: 15px;
+		padding-left: l5px;
+	}
+	.mainSliderWrap{
+		padding-bottom: 0px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-expand-lg>.container{
+		padding-right: 5px;
+	}
+	#navbarCollapse ul li a {
+		padding-left: 10px;
+		margin-bottom: 8px;
+	}
+	.mainSliderWrap{
+		padding-bottom: 0px;
+	}
+	.footer-block3{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.searchTutorWrap .searchSliderWrap{
+		margin-bottom: 30px;
+	}
+	.tutorInformationWrap{
+		flex-direction: column;
+	}
+	.tutorInformationWrap .tutorInformation{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	
+	
+	
+
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.headerBottomWrap a img.logo{
+		width: 160px;
+		height: auto;
+	}
+	.navbar-expand-lg>.container{
+		padding-right: 5px;
+	}
+	.mainSliderWrap{
+		padding-bottom: 0px;
+	}
+	.preparationTop h2{
+		margin-bottom: 10px;
+		font-size: 26px;
+	}
+	.preparationTop h6{
+		font-size: 1.2rem;
+		margin-bottom: 7px;
+	}
+	.buttonWrap a{
+		padding: 9px 20px;
+		font-size: 17px;
+	}
+	.preparationWrap{
+		padding: 40px 0px;
+		padding-bottom: 35px;
+	}
+	.headerBottomWrap button i{
+		font-size: 19px;
+	}
+	.preparationWrap .preparationInform{
+		margin-bottom: 25px;
+	}
+	.same{
+		margin-bottom: 25px;
+	}
+	.searchTutorWrap .searchSliderWrap{
+		margin-bottom: 30px;
+	}
+	.tutorInformationWrap{
+		flex-direction: column;
+	}
+	.tutorInformationWrap .tutorInformation{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.featureTutorWrap{
+		padding-top: 5px;
+	}
+	.sponserWrap img{
+		margin-bottom: 20px;
+	}
+	.tutionDetails .tutionInner{
+		width: 100%;
+	}
+	.tutionDetails{
+		display: flex;
+		flex-direction: column;
+	}
+	.tutionDetails .tutionInner ul li a span{
+		font-size: 14px;
+	}
+	.jobWrap .jobItem{
+		width: 10%;
+	}
+	.jobWrap .jobItem2{
+		width: 90%;
+	}
+	.jobHeading h2{
+		font-size: 17px;
+	}
+	.tutionDetails .tutionInner a.applyBtn{
+		margin-top: 10px;
+	}
+	.applyWrap{
+		margin-top: 15px;
+	}
+}
+@media (max-width: 575px) {
+	.headerBottomWrap a img.logo{
+		width: 160px;
+		height: auto;
+	}
+	.mainSliderWrap{
+		padding-bottom: 0px;
+	}
+	.preparationTop h2{
+		margin-bottom: 10px;
+		font-size: 25px;
+	}
+	.preparationTop h6{
+		font-size: 1.2rem;
+	}
+	.buttonWrap a{
+		padding: 8px 15px;
+		font-size: 16px;
+	}
+	.preparationWrap{
+		padding: 40px 0px;
+		padding-bottom :35px;
+	}
+	.headerBottomWrap button i{
+		font-size: 18px;
+	}
+	.navbar-expand-lg>.container{
+		padding-right: 5px;
+	}
+	.navbar-toggler{
+		padding: 0.25rem 0rem;
+	}
+	.same{
+		margin-bottom: 25px;
+	}	
+	.searchTutorWrap .searchSliderWrap{
+		margin-bottom: 30px;
+	}	
+	.tutorInformationWrap{
+		flex-direction: column;
+	}
+	.tutorInformationWrap .tutorInformation{
+		width: 100%;
+		margin-bottom: 10px;
+	}	
+	.featureTutorWrap{
+		padding-top: 5px;
+	}
+	.sponserWrap img{
+		margin-bottom: 16px;
+	}
+	.jobHeading h2{
+		font-size: 17px;
+	}
+	.tutionDetails .tutionInner a.applyBtn{
+		margin-top: 10px;
+	}
+
+
+
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.headerBottomWrap a img.logo{
+		width: 160px;
+		height: auto;
+	}
+	.mainSliderWrap{
+		padding-bottom: 0px;
+	}
+	.preparationTop h2{
+		margin-bottom: 8px;
+		font-size: 24px;
+	}
+	.preparationTop h6{
+		font-size: 18px;
+		margin-bottom: 25px;
+	}
+	.buttonWrap a{
+		padding: 8px 15px;
+		font-size: 16px;
+	}
+	.preparationWrap{
+		padding: 40px 0px;
+	}
+	.headerBottomWrap button i{
+		font-size: 18px;
+	}
+	.navbar-expand-lg>.container{
+		padding-right: 5px;
+	}
+	.navbar-toggler{
+		padding: 0.25rem 0rem;
+	}
+	.preparationWrap .preparationInform h4{
+		font-size: 21px;
+		margin-top: 21px;
+		padding-bottom: 15px;
+	}
+	.preparationWrap .middleRow{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.preparationWrap .preparationInform{
+		margin-bottom: 25px;
+	}
+	footer .footerBottom .footerBottomWrap p{
+		font-size: 13px;
+	}
+	.same{
+		margin-bottom: 20px;
+	}
+	.footer-single-block p, .footer-single-block ul li a,.footer-block ul li a,.footer-block3 .newsletter-wrap p{
+		font-size: 14px;
+	}
+	.searchTutorWrap .searchSliderWrap{
+		margin-bottom: 25px;
+	}
+	.tutorInformationWrap{
+		flex-direction: column;
+	}
+	.tutorInformationWrap .tutorInformation{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.featureTutorWrap{
+		padding-top: 0px;
+	}
+	.sponserWrap img{
+		margin-bottom: 12px;
+	}
+	.jobWrap .jobItem2 .jopTop{
+		display: flex;
+		flex-direction: column;
+	}
+	.jobWrap .jobItem2 .jopTop .topJobitem h5{
+		margin-bottom :5px;
+		font-size: 16px;
+	}
+	.jobHeading h2{
+		font-size: 17px;
+	}
+	.tutionDetails .tutionInner a.applyBtn{
+		margin-top: 10px;
+	}
+
+}
+@media (max-width: 300px) {
+	.headerBottomWrap a img.logo{
+		width: 160px;
+		height: auto;
+	}
+	.mainSliderWrap{
+		padding-bottom: 0px;
+	}
+	.preparationTop h2{
+		margin-bottom: 8px;
+		font-size: 23px;
+	}
+	.preparationTop h6{
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+	.buttonWrap a{
+		padding: 8px 15px;
+		font-size: 15px;
+	}
+	.preparationWrap{
+		padding: 37px 0px;
+	}
+	.headerBottomWrap button i{
+		font-size: 18px;
+	}
+	.navbar-expand-lg>.container{
+		padding-right: 5px;
+	}
+	.navbar-toggler{
+		padding: 0.25rem 0rem;
+	}
+	.preparationWrap .preparationInform h4{
+		font-size: 20px;
+		margin-top: 21px;
+		padding-bottom: 15px;
+	}
+	.preparationWrap .middleRow{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.preparationWrap .preparationInform{
+		margin-bottom: 25px;
+	}
+	footer .footerBottom .footerBottomWrap p{
+		font-size: 13px;
+	}
+	.same{
+		margin-bottom: 20px;
+	}
+	.footer-single-block p, .footer-single-block ul li a,.footer-block ul li a,.footer-block3 .newsletter-wrap p{
+		font-size: 14px;
+	}
+	.searchTutorWrap .searchSliderWrap{
+		margin-bottom: 20px;
+	}
+	.tutorInformationWrap{
+		flex-direction: column;
+	}
+	.tutorInformationWrap .tutorInformation{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.featureTutorWrap{
+		padding-top: 0px;
+	}
+	.featureTopWrap .buttonWrap2 a{
+		display: none;
+	}
+	.sponserWrap img{
+		margin-bottom: 10px;
+	}
+	.jobWrap .jobItem2 .jopTop{
+		display: flex;
+		flex-direction: column;
+	}
+	.jobWrap .jobItem2 .jopTop .topJobitem h5{
+		margin-bottom :5px;
+		font-size: 16px;
+	}
+	.jobHeading h2{
+		font-size: 17px;
+	}
+	.tutionDetails .tutionInner a.applyBtn{
+		margin-top: 10px;
+	}
+	.applyWrap{
+		margin-top: 15px;
+	}
+}
+/*.....................responsive css file.............................*/

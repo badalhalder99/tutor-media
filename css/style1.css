@@ -1,0 +1,793 @@
+/*....................................................................
+		File Name: style.css
+.....................................................................*/
+
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Exo+2:wght@300;400;500;600;700&family=Heebo:wght@200;300&family=Inter&family=Khula:wght@400;600;700;800&family=Lekton&family=Montserrat:wght@500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Space+Mono&family=Syncopate:wght@400;700&family=Work+Sans:wght@500&display=swap');
+
+/*--------------------------------------------------------------
+				***General***
+--------------------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	outline: none !important;
+	box-sizing: border-box;
+}
+html,
+body {
+	background: #fff;
+	color: #2F2F2F;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: normal;
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none !important;
+	outline: none !important;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;	
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	color: #000;
+}
+a:hover,
+a:active,
+a:focus {
+	outline: none;
+	text-decoration: none;
+}
+p {
+	padding: 0;
+	margin: 0 0 30px 0;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+	margin: 0 0 20px 0;
+	padding: 0;
+	line-height: 1.2;
+	font-family: 'SolaimanLipi';
+}
+
+/*....................................................................
+		***header section start(index page)***
+.....................................................................*/
+/*headerTop css start*/
+.headerTopWrap{
+	background: #491C5E;
+	padding: 4px 0px;
+}
+.headerTop{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.headerTopItem a.headerNumber{
+	color: white;
+	font-size: 14px;
+    font-family: 'Poppins';
+}
+.headerTopItem a.headerRight{
+	color: white;
+	font-family: 'SolaimanLipi';
+	transition: all 1s ease;
+	border-radius: 40px;
+}
+.headerTopItem a.headerRight:hover{
+	background: #fff;
+	color: #491C5E;
+}
+/*headerTop css end*/
+/*..............header modal code start.............*/
+.close{
+	font-size: 27px;
+	font-weight: 800;
+	padding: 20px;
+	color: #000;
+}
+.modalHeader{
+	border-bottom: 0;
+	justify-content: center;
+	position: relative;
+}
+.modalHeader button{
+	position: absolute;
+	top: 12px;
+	right: 12px;
+}
+.modalFooter{
+	border-top: 0;
+}
+.form-wrapper{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.form-wrapper h3{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+}
+.form-control{
+	background: #E5E7EB;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}	
+.passwordWrap{
+	position: relative;
+}
+.passwordWrap span{
+	position: absolute;
+	top: 13px;
+	right: 11px;
+}
+.forgetWrap{
+	font-size: 17px;
+    text-align: right;
+    color: black;
+}
+.loginButton{
+	display: block;
+	text-align: center;
+	font-size : 15px;
+	color: white;
+	background: #374151;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	transition: all .5s ease;
+}
+.loginButton:hover{
+	color: #000;
+	background: #E5E7EB;
+}
+.noRegistation{
+	font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 5px;
+}
+.registationLink{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+}
+form select,form input,form h6,form a{
+	font-family: 'SolaimanLipi';
+}
+.formcontrol{
+	padding-top: 8px;
+}
+
+/*..............header modal code end.............*/
+/*...........when second modal open then scrollbar not scrolling.This code is better solution start...............*/
+.modal {
+  overflow-y:auto;
+}
+/*...........when second modal open then scrollbar not scrolling.This code is better solution end...............*/
+/*headerBottom css start*/
+.headerBottomWrap{
+	background: #6C2A8C;
+}
+.headerBottomWrap a img.logo{
+	width: 180px;
+	height: auto;
+}
+#navbarCollapse ul li a {
+	color: white;
+	border-radius: 40px;
+	font-family: 'Poppins';
+	text-transform: capitalize;
+	transition: all 1s ease;
+}
+#navbarCollapse ul li a:hover {
+	color: #6C2A8C;
+	background: white;
+}
+#navbarCollapse ul li:(:last-child) a {
+	padding-right: 0px;
+}
+.headerBottomWrap button i{
+	font-size: 22px;
+	color: white;
+}
+.navbar{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+/*headerBottom css end*/
+/*....................................................................
+		***slider section start(index page)***
+.....................................................................*/
+.mainSliderWrap{
+	padding: 55px 0px;
+	padding-bottom: 20px;
+	background: #1A161F;
+}
+.sliderInformWrap h2{
+	color: white;
+	font-family: SolaimanLipi;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.sliderInformWrap p{
+	color: white;
+	margin-bottom: 30px;
+	font-family: SolaimanLipi;
+	font-size: 17px;
+}
+
+@media (max-width: 575px) {
+	.mainSliderWrap{
+		padding: 40px 0px;
+		padding-bottom: 0;
+	}
+	.sliderInformWrap h2{
+		font-size: 1.7rem;
+	}
+	.sliderInformWrap p{
+		font-size: 14px;
+	}
+}
+.owl-carousel .owl-drag .owl-item{
+	height: 100%;
+}
+/*.........start copy code css from plugin.......*/
+#customers-testimonials .item-details {
+  background-color: #333333;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials .item-details h5 {
+  margin: 0 0 15px;
+  font-size: 18px;
+  line-height: 18px;
+}
+#customers-testimonials .item-details h5 span {
+  color: red;
+  float: right;
+  padding-right: 20px;
+}
+#customers-testimonials .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials .item {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.owl-carousel .owl-nav [class*=owl-] {
+  transition: all 0.3s ease;
+}
+
+.owl-carousel .owl-nav [class*=owl-].disabled:hover {
+  background-color: #D6D6D6;
+}
+
+.owl-carousel {
+  position: relative;
+}
+
+.owl-carousel .owl-next,
+.owl-carousel .owl-prev {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.owl-carousel .owl-prev {
+  left: -70px;
+}
+
+.owl-carousel .owl-next {
+  right: -70px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+	background: white;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+	display: block;
+}
+.owl-carousel .owl-dots{
+	display: none;
+}
+/*......end copy code css from plugin...........*/
+/*....................................................................
+		***searach tutor section start(index page)***
+.....................................................................*/
+.searchTutorWrap{
+	background: #F8FAFC;
+	padding: 40px 0px;
+	padding-bottom: 20px;
+}
+.searchTutorWrap .card .card-header h4{
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 12px;
+}
+.searchTutorWrap .card .card-header p{
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 5px;
+    font-size: 16px;
+}
+.searchTutorWrap .card .card-body{
+	padding: 1rem;
+}
+.searchTutorWrap .card .card-body form .form-control{
+	padding-top: 8px;
+	background: white;
+}
+.searchTutorWrap .card .card-body form .form-group{
+	margin-bottom: 0px;
+}
+.searchTutorWrap .card .card-body form button.tutorSecarchButton{
+	background: #6C2A8C;
+	color: white;
+}
+/*....................................................................
+		***fearured tutor section start(index page)***
+.....................................................................*/
+.featureTutorWrap{
+	background: #F8FAFC;
+	padding: 20px 0px;
+}
+.featureTopWrap{
+	display: flex;
+}
+.featureTopWrap .headingWrap h5{
+	font-weight: bold;
+	font-size: 1.125rem;
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
+	color: #491C5E;
+}
+.featureTopWrap .headingWrap hr{
+	width: 57px;
+	height: 1px;
+	background: #491C5E;
+}
+.featureTopWrap .buttonWrap2 a{
+	color: white;
+    margin-left: 3px;
+    background: #6C2A8C;
+    border-radius: 0;
+    font-size: 12px;
+	padding: 5px;
+	transition: all 0.5s ease;
+}
+.featureTopWrap .buttonWrap2 a:hover{
+	color: #ddd;
+}
+.tutorInformationWrap{
+	display: flex;
+	justify-content: space-between;
+}
+.tutorInformationWrap .tutorInformation{
+	display: flex;
+	justify-content: flex-start;
+	border: 1px solid #ddd;
+    border-radius: 3px;
+	width: 33%;
+	transition: all .5s ease;
+	margin-bottom: 15px;
+}
+.tutorInformationWrap .tutorInformation:hover{
+	background: white;
+	cursor: pointer;
+}
+.tutorInformationWrap .tutorInformation .tutorImg a img{
+	width: 65px;
+}
+.tutorInformationWrap .tutorInformation .tutorInform a h6{
+	margin-bottom: 5px;
+	font-size: 16px;
+    font-weight: bold;
+}
+.tutorInformationWrap .tutorInformation .tutorInform a p{
+	margin-bottom: 5px;
+}
+.tutorInformationWrap .tutorInformation .tutorInform a p.paraOne{
+	margin-bottom: 0px;
+}
+.tutorInformationWrap .tutorInformation .tutorInform a p.paraTwo{
+	margin-bottom: 0px;
+	color: #38c172 !important;
+}
+.tutorInformationWrap .tutorInformation .tutorInform{
+	padding: 5px;
+	padding-left: 10px;
+}
+.divisionTutorWrap{
+	background: #6C2A8C;
+	padding: 15px 12px;
+}
+.divisionTutorWrap h4{
+	color: white;
+	font-size: 17px;
+	margin-bottom: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+.divisionTutorWrap a{
+	color: white;
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+	border: 1px solid #ddd;
+	margin-bottom: 8px;
+	transition: all .5s ease;
+	padding: 5px 7px;
+}
+.divisionTutorWrap a:hover{
+	background: white;
+	color: black;
+}
+.linksTutorWrap{
+	background: #6C2A8C;
+	padding: 15px 12px;
+	margin-bottom: 20px;
+}
+.linksTutorWrap h4{
+	color: white;
+	font-size: 17px;
+	margin-bottom: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+.linksTutorWrap a{
+	color: white;
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+	border: 1px solid #ddd;
+	margin-bottom: 8px;
+	transition: all .5s ease;
+	padding: 5px 7px;
+}
+.linksTutorWrap a:hover{
+	background: white;
+	color: black;
+}
+.sponserWrap h4{
+	font-weight: bold;
+	font-size: 1.135rem;
+	line-height: 1.2;
+	margin-bottom: 0.2rem;
+	color: #491C5E;
+}
+.sponserWrap hr{
+	width: 50px;
+	height: 1px;
+	margin-top: 12px;
+	background: #491C5E;
+}
+/*....................................................................
+		***Recent Tution Job section start(index page)***
+.....................................................................*/
+.recentJobWrap{
+	padding-bottom: 50px;
+}
+#demo{
+	box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.recentJobWrap .applyWrap{
+	background: #6C2A8C;
+	padding: 15px 12px;
+	padding-right: 5px;
+	margin-bottom: 20px;
+	height: 100%;
+}
+.recentJobWrap .applyWrap h4{
+	color: white;
+	font-size: 17px;
+	margin-bottom: 10px;
+	font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.recentJobWrap .applyWrap p{
+	color: white;
+	font-size: 11px;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 8px;
+}
+.recentJobWrap .applyWrap ul{
+	margin-bottom: 0px;
+}
+.recentJobWrap .applyWrap ul li a{
+	color: white;
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 8px;
+	pointer-events: none;
+	cursor: unset;
+}
+.recentJobWrap .applyWrap ul li a i{
+	font-size: 10px;
+}
+.jobWrap{
+	display: flex;
+	justify-content: flex-start;
+	background: #F5F5F5;
+	border: 1px solid #ddd;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.jobWrap .jobItem{
+	width: 15%;
+	background: #90AAAE;
+}
+.jobWrap .jobItem2{
+	width: 85%;
+	background: #F0F2F5;
+	padding: 15px;
+}
+.jobWrap .jobItem2 .jopTop{
+	display: flex;
+	justify-content: space-between;
+}
+.jobWrap .jobItem2 .jopTop .topJobitem h5{
+	color: black;
+	font-size: 17px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	margin-bottom :15px;
+}
+.jobWrap .jobItem2 .jopTop .topJobitem ul{
+	margin-bottom: 5px;
+}
+.jobWrap .jobItem2 .jopTop .topJobitem ul li a{
+	color: black;
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+}
+.jobHeading h2{
+	color: black;
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+.tutionDetails{
+	display: flex;
+	justify-content: space-between;
+}
+.tutionDetails .tutionInner{
+	width: 50%;
+}
+.tutionDetails .tutionInner ul{
+	margin-bottom: 0px;
+}
+.tutionDetails .tutionInner ul li a{
+	color: black;
+	font-size: 14px;
+	pointer-events: none;
+	cursor: unset;
+}
+.tutionDetails .tutionInner ul li a i{
+	color: #097B8D;
+}
+.tutionDetails .tutionInner ul li a span{
+	font-weight: bold;
+	color: #097B8D;
+	font-size: 15px;
+}
+.tutionDetails .tutionInner{
+	padding: 5px;
+}
+.tutionDetails .tutionInner a.applyBtn{
+	background: #097B8D;
+	color: white;
+	transition: all .5s ease;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.tutionDetails .tutionInner a.applyBtn:hover{
+	background: #C8D9DD;
+	color: black;
+}
+/*....................................................................
+		***preparation section start(index page)***
+.....................................................................*/
+.preparationWrap{
+	padding: 60px 0px;
+	padding-top: 45px;
+	background: #F7F8FA;
+}
+.preparationTop h2{
+	font-family: 'SolaimanLipi';
+	font-weight: bold;
+	color: black;
+	margin-bottom: 13px;
+}
+.preparationTop h6{
+	font-family: 'SolaimanLipi';
+	font-weight: 500;
+	font-size: 1.35rem;
+    line-height: 1.75rem;
+	color: black;
+}
+.buttonWrap a{
+	color: white;
+    background: #27895D;
+    padding: 9px 20px;
+    font-family: 'SolaimanLipi';
+    font-size: 19px;
+    letter-spacing: .5px;
+    border-radius: 40px;
+}
+.preparationWrap .preparationInform{
+	border-radius: 10px;
+	background: white;
+	margin-bottom: 30px;
+	transition: all .4s ease;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.preparationWrap .preparationInform:hover{
+    transform: translateY(-15px);
+}
+.preparationWrap .preparationInform img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.preparationWrap .preparationInform h4{
+	font-family: 'SolaimanLipi';
+	margin-top: 25px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 22px;
+}
+.preparationWrap .preparationInform a.details{
+	font-family: 'SolaimanLipi';
+	padding-top: 0px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.preparationWrap .middleRow{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+/*....................................................................
+		***footer start(index page)***
+.....................................................................*/
+footer .footerBottom{
+	background: #0A0A0A;
+	padding: 15px 0px;
+}
+footer .footerBottom .footerBottomWrap p{
+	margin-bottom: 0;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+footer .footerTop{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	background: #351948;
+}
+.footer-single-block .footer-logo a img{
+	width: 180px;
+	height: auto;
+}
+.footer-single-block p{
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	line-height: 25px;
+}
+.footer-single-block ul li a{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    border: 2px solid green;
+    padding: 4px 10px;
+    border-radius: 35px;
+    transition: all .5s ease;
+}
+.footer-single-block ul li a:hover{
+	color: green;
+	border-color: white;
+}
+.footer-block h5{
+	color: white;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+.footer-block ul{
+	padding-left: 10px;
+}
+.footer-block ul li{
+	margin-bottom: 5px;
+}
+.footer-block ul li a{
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+.footer-block3 .newsletter-wrap p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: white;
+}
+.footer-block3 .newsletter-wrap .newsletter-input-box form input{
+	background: white;
+    border: 0;
+    padding: 7px 7px;
+    font-family: 'Poppins';
+}
+.footer-block3 .newsletter-wrap .newsletter-input-box form button{
+	background: #62b74d;
+    border: 0;
+    padding: 7px 12px;
+    font-family: 'Poppins';
+    margin-left: -5px;
+    color: white;
+}
+.same2{
+	margin-top: 14px;
+}
+/*.............................................***backTopButton code start***...........................*/
+.to-top {
+	background: white;
+	position: fixed;
+	bottom: 16px;
+	right:32px;
+	width:45px;
+	height:45px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size:32px;
+	color:#1f1f1f;
+	text-decoration: none;
+	opacity:0;
+	pointer-events: none;
+	transition: all .4s;
+	box-shadow: 0 1px 4px rgb(0 35 62 / 81%);
+}
+
+.to-top.active {
+	bottom:32px;
+	pointer-events: auto;
+	opacity:1;
+	z-index: 10;
+	background: #0AB9F2;
+	color: #fff;
+	font-size: 23px;
+	box-shadow: 0 1px 4px rgb(0 35 62 / 81%);
+}
+/*.........................***backTopButton code end***..........................*/
+/*.............................................***Here end style.css file***...........................*/ 
